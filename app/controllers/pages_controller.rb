@@ -1,20 +1,36 @@
 class PagesController < ApplicationController
-
-layout 'internal', except: [:index]
-
+  layout 'internal', except: [:index]
 
   def index
   end
 
-  def about_us
+  def MantenerPropietarios
   end
 
-  def faq
+  def RegistrarEstacionamiento
   end
 
-  def tos
+  def MantenerEstacionamiento
   end
 
-  def contact_us
+  def MantenerClientes
+  end
+
+  def BuscarEstacionamientos
+  end
+
+  def AlquilerEstacionamientos
+  end
+
+  def ServiciosAdicionales
+  end
+
+  def ListarAlquiler
+  end
+
+  def ComentarEstacionamientos
+  end
+
+  def MantenerPublicidad
   end
 end

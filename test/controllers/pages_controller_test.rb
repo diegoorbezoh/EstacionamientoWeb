@@ -6,23 +6,53 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get about_us" do
-    get pages_about_us_url
+  test "should get MantenerPropietarios" do
+    get pages_MantenerPropietarios_url
     assert_response :success
   end
 
-  test "should get faq" do
-    get pages_faq_url
+  test "should get RegistrarEstacionamiento" do
+    get pages_RegistrarEstacionamiento_url
     assert_response :success
   end
 
-  test "should get tos" do
-    get pages_tos_url
+  test "should get MantenerEstacionamiento" do
+    get pages_MantenerEstacionamiento_url
     assert_response :success
   end
 
-  test "should get contact_us" do
-    get pages_contact_us_url
+  test "should get MantenerClientes" do
+    get pages_MantenerClientes_url
+    assert_response :success
+  end
+
+  test "should get BuscarEstacionamientos" do
+    get pages_BuscarEstacionamientos_url
+    assert_response :success
+  end
+
+  test "should get AlquilerEstacionamientos" do
+    get pages_AlquilerEstacionamientos_url
+    assert_response :success
+  end
+
+  test "should get ServiciosAdicionales" do
+    get pages_ServiciosAdicionales_url
+    assert_response :success
+  end
+
+  test "should get ListarAlquiler" do
+    get pages_ListarAlquiler_url
+    assert_response :success
+  end
+
+  test "should get ComentarEstacionamientos" do
+    get pages_ComentarEstacionamientos_url
+    assert_response :success
+  end
+
+  test "should get MantenerPublicidad" do
+    get pages_MantenerPublicidad_url
     assert_response :success
   end
 
