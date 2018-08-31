@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
   resources :comments
   #get 'pages/index'
-  root 'pages#index'
+  #root 'pages#index'
   get 'pages/MantenerPropietarios'
   get 'pages/RegistrarEstacionamiento'
   get 'pages/MantenerEstacionamiento'
-  get 'pages/MantenerClientes'
+  
+  #get 'pages/MantenerClientes'
+  root 'pages#MantenerClientes'
+  
   get 'pages/BuscarEstacionamientos'
   get 'pages/AlquilerEstacionamientos'
   get 'pages/ServiciosAdicionales'
